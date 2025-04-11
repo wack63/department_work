@@ -1,10 +1,14 @@
+// 修改為支援部署到 Vercel 的 Next.js 專案
+// 並新增 package.json 以解決 "No Next.js version" 錯誤
+
+// == pages/index.js ==
 import { useEffect, useState } from 'react';
 
 const dailyLimits = {
-  '2025-04-18': 25,
-  '2025-04-19': 25,
-  '2025-04-20': 20,
-  '2025-04-21': 10,
+  '2025-04-09': 25,
+  '2025-04-10': 25,
+  '2025-04-11': 20,
+  '2025-04-12': 10,
 };
 
 export default function VoucherRedeemApp() {
